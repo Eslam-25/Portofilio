@@ -156,6 +156,14 @@ h6 {
   }
 }
 
+.copyright {
+  position: absolute;
+  bottom: 23px;
+  color: white;
+  text-align: center;
+  left: 75px;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -991,42 +999,5 @@ section {
 
   .breadcrumbs ol li {
     display: inline-block;
-  }
-}
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 9999;
-  background: #040b14;
-  z-index: 0;
-}
-
-#footer .copyright {
-  text-align: center;
-}
-
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
-}
-
-@media (max-width: 1199px) {
-  #footer {
-    /* position: absolute; */
-    bottom: 0;
-    right: 0;
-    width: auto;
-    padding-right: 20px 15px;
   }
 }
