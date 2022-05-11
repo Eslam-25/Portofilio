@@ -5,7 +5,7 @@ var portfolios = [
         imageName: "qatar0.jpg",
         name: "Qatar University Main Page",
         date: "April 2022",
-        publicLink: "https://www.google.com/",
+        // publicLink: "https://www.google.com/",
         technologies: "one, two, three",
         summary: "This is a main page for Qatar University",
         images: [
