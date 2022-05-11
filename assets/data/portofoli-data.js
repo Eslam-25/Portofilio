@@ -6,7 +6,7 @@ var portfolios = [
         name: "Qatar University Main Page",
         date: "April 2022",
         // publicLink: "https://www.google.com/",
-        technologies: "one, two, three",
+        technologies: "HTML, CSS, Bootstrap",
         summary: "This is a main page for Qatar University",
         images: [
             "qatar0.jpg",
