@@ -142,7 +142,7 @@ h6 {
   margin-left: 300px;
 }
 
-.detail-header .navbar{
+.detail-header .navbar {
   justify-content: left !important;
 }
 
@@ -315,7 +315,7 @@ h6 {
   opacity: 1;
 }
 
-.hero-btns a:hover{
+.hero-btns a:hover {
   border: 2px solid #149ddd;
 }
 
@@ -445,9 +445,10 @@ section {
   margin-bottom: 0;
 }
 
-.about img{
+.about img {
   border-radius: 1.5%;
 }
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -502,17 +503,18 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills img{
+.skills img {
   height: 45px;
   margin-bottom: 1rem;
 }
 
-.skills .skil-content{
+.skills .skil-content {
   display: inline-block;
   text-align: center;
   margin-right: 0.70rem;
 }
-.skills .skil-content h6{
+
+.skills .skil-content h6 {
   font-weight: 600;
   font-size: smaller;
 }
@@ -727,9 +729,10 @@ section {
   font-weight: 600 !important;
 }
 
-.portfolio .img-fluid{
+.portfolio .img-fluid {
   min-height: 15.7rem;
 }
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1004,6 +1007,7 @@ section {
   width: 300px;
   z-index: 9999;
   background: #040b14;
+  z-index: 0;
 }
 
 #footer .copyright {
