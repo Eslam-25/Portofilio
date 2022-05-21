@@ -616,6 +616,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .portfolio #portfolio-flters {
@@ -655,6 +656,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  width: fit-content;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -739,6 +741,7 @@ section {
 
 .portfolio .img-fluid {
   min-height: 15.7rem;
+  max-height: 25rem;
 }
 
 /*--------------------------------------------------------------
@@ -746,6 +749,19 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
+}
+
+#my-carousel-images {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-indicators {
+  width: 70% !important;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  max-height: 70rem;
 }
 
 .portfolio-details .portfolio-details-slider img {
