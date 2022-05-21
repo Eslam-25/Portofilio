@@ -5,7 +5,7 @@ var _portfolios = portfolios;
     const params = Object.fromEntries(urlSearchParams.entries());
     let project = _portfolios.find(r => r.id == +params.projectId);
 
-    
+
     let myCarouselIndicators = document.getElementById("my-carousel-indicators");
     let firstIndecator = prepareCarouselIndecatorElement(0, true);
 
@@ -21,24 +21,25 @@ var _portfolios = portfolios;
         let imageItem = prepareCarouselImages(project.images[index]);
         myCarouselImages.appendChild(imageItem);
     }
-    
+
+    document.getElementById("project-price").innerText = project.price ? `${project.price} $` : "Free";
     document.getElementById("project-name").innerText = project.name;
     document.getElementById("project-category").innerText = project.type;
     document.getElementById("project-date").innerText = project.date;
     document.getElementById("project-technologies").innerText = project.technologies;
     document.getElementById("project-summary").innerText = project.summary;
 
-    if(project.publicLink){
+    if (project.publicLink) {
         document.getElementById("project-url").innerText = project.publicLink;
         document.getElementById("project-url").setAttribute('href', project.publicLink);
-    }else{
+    } else {
         document.getElementById("project-url-li").style.display = "none";
     }
 })();
 
 function prepareCarouselIndecatorElement(index, first = false) {
     let liCarouselElement = document.createElement("li");
-    if(first) liCarouselElement.className += "active";
+    if (first) liCarouselElement.className += "active";
 
     liCarouselElement.setAttribute("data-target", "#myCarousel");
     liCarouselElement.setAttribute("data-slide-to", index);
@@ -48,7 +49,7 @@ function prepareCarouselIndecatorElement(index, first = false) {
 
 function prepareCarouselImages(imageName, first = false) {
     let imageItem = document.createElement("div");
-    if(first)
+    if (first)
         imageItem.className += "item active";
     else
         imageItem.className += "item";
