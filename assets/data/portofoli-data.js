@@ -37,6 +37,25 @@ var portfolios = [
         ]
     },
     {
+        id: 1.3,
+        type: "Web",
+        imageName: "DarElf/1.JPG",
+        name: "Dar Al-Furqan Center for the memorization of the Qur’an",
+        date: "April 2022",
+        // publicLink: "https://www.google.com/",
+        technologies: "HTML, CSS, Bootstrap and .Net Core MVC",
+        summary: "This is a web app to manage the students attendance in the center and manage the time of the sessions .",
+        images: [
+            "DarElf/1.JPG",
+            "DarElf/2.JPG",
+            "DarElf/3.JPG",
+            "DarElf/4.JPG",
+            "DarElf/5.JPG",
+            "DarElf/6.JPG",
+            "DarElf/7.JPG",
+        ]
+    },
+    {
         id: 2.1,
         type: "Mobile",
         imageName: "mobile-flutter-news/1.png",
