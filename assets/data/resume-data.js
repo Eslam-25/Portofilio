@@ -15,10 +15,16 @@ var educationResumes = [
 
 var freelanceResumes = [
     {
+        title: "Dar Al-Furqan Center for the memorization of the Qur’an",
+        date: "April 2022 - Present",
+        place: "",
+        information: ""
+    },
+    {
         title: "Develop the main page of Qatar University",
         date: "April 2022 - May 2022",
         place: "",
-        information: "Graduation Grade: Very Good."
+        information: ""
     }
 ];
 
