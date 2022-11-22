@@ -15,10 +15,19 @@ var educationResumes = [
 
 var freelanceResumes = [
     {
-        title: "Dar Al-Furqan Center for the memorization of the Qur’an",
-        date: "April 2022 - Present",
+        title: "Car Rental",
+        date: "October 2022 - November 2022",
         place: "",
-        information: ""
+        information: `This project to give the people a chance to select the car to carry or deliver anything,
+                      It contains two different user interfaces, web application built with angular for managers and customer servcies 
+                      to manage all users requests then contact them, another user interface is a flutter appliction for users to select 
+                      them orders and give the drivers a chance to add them cars.`
+    },
+    {
+        title: "Dar Al-Furqan Center for the memorization of the Qur’an",
+        date: "April 2022 - August 2022",
+        place: "",
+        information: "This project to manage student attendances and them degree"
     },
     {
         title: "Develop the main page of Qatar University",
