@@ -78,5 +78,28 @@ var portfolios = [
             "mobile-flutter-news/0.0.png",
             "mobile-flutter-news/0.1.png",
         ]
+    },
+    {
+        id: 2.2,
+        type: "Mobile",
+        imageName: "my-earn-money-flutter/1.png",
+        name: "My Earn App",
+        date: "JAN 2023",
+        price: 75,
+        // publicLink: "https://www.google.com/",
+        technologies: "Flutter , Asp.Net Core , EF Core and Sql Server",
+        summary: "This is a mobile app to register your income resources, enter your income every day and display the summary per month and year, It developed by Flutter to build the mobile application and Asp.Net Core to build the backend (using Onion Architecture). \n It contains two roles (Admin, Viewer) :- \n* For The Admin can control all features of the app (users, resourses).\n* For The Viewer can see the resourses and summaries. ",
+        images: [
+            "my-earn-money-flutter/1.png",
+            "my-earn-money-flutter/1.png",
+            "my-earn-money-flutter/2.png",
+            "my-earn-money-flutter/3.png",
+            "my-earn-money-flutter/4.png",
+            "my-earn-money-flutter/5.png",
+            "my-earn-money-flutter/6.png",
+            "my-earn-money-flutter/7.png",
+            "my-earn-money-flutter/8.png",
+            "my-earn-money-flutter/9.png",
+        ]
     }
 ];
