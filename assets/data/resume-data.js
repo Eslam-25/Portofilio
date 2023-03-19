@@ -15,6 +15,13 @@ var educationResumes = [
 
 var freelanceResumes = [
     {
+        title: "My Earn App",
+        date: "JAN 2023 - Feb 2023",
+        place: "",
+        information: `This project to give the people a chance to manage thier incomes,
+                      This mobile application to manage your incomes and see summaries per month and year.`
+    },
+    {
         title: "Car Rental",
         date: "October 2022 - November 2022",
         place: "",
